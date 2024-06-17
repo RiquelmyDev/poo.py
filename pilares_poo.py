@@ -30,6 +30,11 @@ animais = [dog, cat]
 for animal in animais:
   print(f"{animal.nome} faz: {animal.emitir_som()}")
 
+
+
+
+
+
 #Exemplo de encapsulamento
 
 print("\n Exemplo de encapsulamento:")
@@ -58,6 +63,13 @@ conta.sacar(valor=200)
 print(f"Saldo da conta bancária: {conta.consultar_saldo()}")
 
 conta_Kaio = ContaBancaria(saldo=100)
+
+
+
+
+
+
+
 
 #abstração
 
